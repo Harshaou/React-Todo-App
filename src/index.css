@@ -1,0 +1,79 @@
+body{
+    background-color: #9866ff;
+}
+
+.app{
+    background-color: #3f3160;
+    min-height: 500px;
+    width: 400px;
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 30px;
+}
+
+h1{
+    padding-top: 15px;
+    color: rgb(202,156,24) ;
+    margin-left: 30%; 
+    
+}
+
+#input{
+background-color: rgb(27,112,137);
+border: 0;
+height: 50px;
+width: 250px;
+padding: 0 20px;
+margin: 20px;
+font-size: 18px;
+border-radius: 10px;
+color: #fff;
+}
+
+#to-do-form input::placeholder{
+    color: rgba(255,255,255,0.5);
+}
+
+#to-do-form input:focus{
+    outline: none;
+}
+
+#to-do-form button {
+    height: 50px;
+    width: 80px;
+    border-radius: 6px;
+    border: 0;
+    background-color: rgb(202,156,24);
+    cursor: pointer;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.list{
+    color: #fff;
+    width:350px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #bf07ac;
+    float: left;
+    margin-left: 18px;
+
+}
+
+.list-p{
+    padding: 12px;
+    position: relative;
+}
+
+.list-p span{
+    position: absolute;
+    right: 8px;
+    cursor: pointer;
+}
+
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+    
+}
